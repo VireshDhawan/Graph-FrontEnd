@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+#page {
+  
+  width: 90%;
+  margin: 0 auto;
+  min-height: 100vh;
+
+}
+hr {
+
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    border-width: 2px;
+}
+.header{
+letter-spacing: 4px;
+line-height: 1.8;
+word-spacing: 3px;
+color: #000;
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.tabs > div {
+	margin-top: 10px;
+	background: #fff !important;
+	
+}
+
+.tabs > div span {
+	border-bottom: 4px solid #E5E5E5 !important;
+	color: #ccc !important;
+	font-weight: 300;
+	line-height: 186px !important;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	
+}
+
+.tabs ul.horizontal {
+	list-style: none outside none;
+	margin: 0;
+	
+}
+
+.tabs li {
+	background: #fff;
+	border-bottom: 4px solid #ff751a;
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+
+.tabs a {
+	color: rgba(51, 58, 62, 0.89);
+	display: block;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 14px 24px;
+	text-decoration: none;
+}
+
+.tabs li:hover {
+	background: #ffb380;
+	border-bottom: 4px solid #662900;
+}
+
+.tabs li:hover a {
+	color: #fff;
+}
+
+.active {
+	background: #ff751a !important;
+	border-bottom: 4px solid #000 !important;
+}
+
+.active a {
+	color: #fff !important;
+}
